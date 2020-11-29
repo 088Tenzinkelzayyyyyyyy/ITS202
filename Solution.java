@@ -272,7 +272,7 @@ public class Solution<Key extends Comparable<Key>, Value>{
         outer.put("NIMA",7);
         System.out.println(outer.size());
         System.out.println(outer.get("CHIMI"));
-        System.out.println(outer.floor("CHIMI"));
+        System.out.println(outer.floor("CHIMA"));
         outer.put("SONAM",8);
 
         for (String s : outer.keys("ABDUL","TASHI"))
